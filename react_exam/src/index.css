@@ -1,0 +1,56 @@
+
+body {
+  background: linear-gradient(to right, #01166b, #d10808);
+  font-family: 'Arial', sans-serif;
+   color: #f7f5f5;
+  
+
+}
+.container {
+  max-width: 800px;
+}
+
+.card {
+  background-color: #dca7fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+button {
+  border-radius: 6px;
+  font-style: italic;
+
+}
+
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 10px;
+ 
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus {
+  border-color: #00bf72;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 191, 114, 0.4);
+}
+.border{
+  border: 5px solid #f5f0f0;
+ border-radius: 10px;
+ padding-bottom: 150px;
+ padding-top: 20px;
+}
+.btnStyle{
+  margin: 10px;
+  width: 70px;
+  min-width: 70px;
+}
+.inputsz{
+  width: 500px;
+}
